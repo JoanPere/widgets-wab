@@ -1,0 +1,119 @@
+<div style="width:100%;">
+  <p>${nls.disclaimer} <a href="${nls.apiUrl}" target='_blank'>${nls.apiUrl}</a></p>
+  <table class="setting-table input-table" cellspacing="0">
+    <tbody>
+      <tr>
+        <td class="first">${nls.opacity}</td>
+        <td class="second">
+          <input
+            type="text"
+            data-dojo-type="dijit/form/NumberTextBox"
+            required="true"
+            placeHolder="0.5"
+            data-dojo-attach-point="opacity"
+            data-dojo-props='style:{width:"100px"}, constraints:{min:0.3}'
+          /> (0.3 - 1.0)
+        </td>
+        <td class="third">
+          <div class="help-icon"></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="first">${nls.appId}</td>
+        <td class="second">
+          <input
+            type="text"
+            data-dojo-type="dijit/form/TextBox"
+            required="true"
+            placeHolder="b7bf544e"
+            data-dojo-attach-point="app_id"
+            data-dojo-props='style:{width:"100px"}, trim:true'
+          />
+        </td>
+        <td class="third">
+          <div class="help-icon"></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="first">${nls.apiKey}</td>
+        <td class="second">
+          <input
+            type="text"
+            data-dojo-type="dijit/form/TextBox"
+            required="true"
+            placeHolder="17f5101d09c141aa55d72b9254bbb499"
+            data-dojo-attach-point="api_key"
+            data-dojo-props='style:{width:"300px"}, trim:true'
+          />
+        </td>
+        <td class="third">
+          <div class="help-icon"></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="first">Color de los textos</td>
+        <td class="second">
+          <input
+            type="text"
+            data-dojo-type="dijit/form/TextBox"
+            required="true"
+            placeHolder="Black"
+            data-dojo-attach-point="colorText"
+            data-dojo-props='style:{width:"100px"}, constraints:{min:0.3}'
+          />
+        </td>
+        <td class="third">
+          <div class="help-icon"></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="first">Long</td>
+        <td class="second">
+          <input
+            type="text"
+            data-dojo-type="dijit/form/NumberTextBox"
+            required="true"
+            placeHolder=" -0.156"
+            data-dojo-attach-point="lon"
+            data-dojo-props='style:{width:"100px"}, constraints:{min:0.3}'
+          /> 
+        </td>
+        <td class="third">
+          <div class="help-icon"></div>
+        </td>
+      </tr>
+     <tr>
+        <td class="first">lat</td>
+        <td class="second">
+          <input
+            type="text"
+            data-dojo-type="dijit/form/NumberTextBox"
+            required="true"
+            placeHolder="39.854"
+            data-dojo-attach-point="lat"
+            data-dojo-props='style:{width:"100px"}, constraints:{min:0.3}'
+          /> (0.3 - 1.0)
+        </td>
+        <td class="third">
+          <div class="help-icon"></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="first">nivel de zoom:</td>
+        <td class="second">
+          <input
+            type="text"
+            data-dojo-type="dijit/form/NumberTextBox"
+            required="true"
+            placeHolder="15"
+            data-dojo-attach-point="zoom"
+            data-dojo-props='style:{width:"100px"}, constraints:{min:0.3}'
+          /> (0.3 - 1.0)
+        </td>
+        <td class="third">
+          <div class="help-icon"></div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
